@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Online Student Service Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Malla Reddy University</h1>
+        <p>Online Student Service Portal</p>
+    </header>
+
+    <main>
+
+        <section class="welcome">
+            <h2>Student Services</h2>
+            <p>
+                Submit your academic, examination, technical
+                or general enquiries through this portal.
+            </p>
+        </section>
+
+        <!-- Student Service Form -->
+        <section class="form-section">
+
+            <h2>Submit a Service Request</h2>
+
+            <form id="serviceForm" novalidate>
+
+                <!-- Student Name -->
+                <div class="form-group">
+                    <label for="studentName">Student Name</label>
+
+                    <input
+                        type="text"
+                        id="studentName"
+                        placeholder="Enter your full name"
+                        required>
+
+                    <small class="error" id="nameError"></small>
+                </div>
+
+                <!-- Roll Number -->
+                <div class="form-group">
+                    <label for="rollNumber">Roll Number</label>
+
+                    <input
+                        type="text"
+                        id="rollNumber"
+                        placeholder="Enter your roll number"
+                        required>
+
+                    <small class="error" id="rollError"></small>
+                </div>
+
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Enter your email"
+                        required>
+
+                    <small class="error" id="emailError"></small>
+                </div>
+
+                <!-- Service Type -->
+                <div class="form-group">
+                    <label for="serviceType">Select Service</label>
+
+                    <select id="serviceType" required>
+
+                        <option value="">Choose a service</option>
+                        <option value="academic">Academic Service</option>
+                        <option value="examination">Examination Service</option>
+                        <option value="technical">Technical Support</option>
+                        <option value="general">General Enquiry</option>
+
+                    </select>
+
+                    <small class="error" id="serviceError"></small>
+                </div>
+
+                <!-- Dynamic Fields -->
+                <div id="dynamicFields"></div>
+
+                <!-- Message -->
+                <div class="form-group">
+                    <label for="message">Describe Your Request</label>
+
+                    <textarea
+                        id="message"
+                        rows="5"
+                        placeholder="Enter your request"
+                        required></textarea>
+
+                    <small class="error" id="messageError"></small>
+                </div>
+
+                <!-- Submit -->
+                <button type="submit">
+                    Submit Request
+                </button>
+
+                <p id="formStatus" role="status"></p>
+
+            </form>
+
+        </section>
+
+        <!-- Submitted Requests -->
+        <section class="requests-section">
+
+            <h2>Submitted Requests</h2>
+
+            <p>
+                Requests submitted during this session
+                will appear below.
+            </p>
+
+            <div id="requestsList"></div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Student Service Portal</p>
+        <p>Designed using HTML, CSS and JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
