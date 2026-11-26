@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Student Services | Malla Reddy University</title>
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+
+        <div class="logo">
+            <h1>MRU</h1>
+            <p>Malla Reddy University</p>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#notices">Notices</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+
+            <div class="hero-content">
+
+                <h2>Welcome to Student Services</h2>
+
+                <p>
+                    Your one-stop destination for academic information,
+                    student support, university updates and campus services.
+                </p>
+
+                <a href="#services" class="btn">
+                    Explore Services
+                </a>
+
+            </div>
+
+        </section>
+
+        <!-- Services Section -->
+        <section class="services" id="services">
+
+            <h2>Our Student Services</h2>
+
+            <p class="section-description">
+                Access essential services designed to support
+                your academic journey.
+            </p>
+
+            <div class="service-container">
+
+                <article class="service-card">
+                    <div class="service-icon">📚</div>
+                    <h3>Academic Services</h3>
+                    <p>
+                        Information about courses, academic schedules
+                        and student learning support.
+                    </p>
+                    <a href="#">Learn More</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">📝</div>
+                    <h3>Examination Cell</h3>
+                    <p>
+                        Access examination schedules, guidelines
+                        and result-related information.
+                    </p>
+                    <a href="#">Learn More</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Technical Support</h3>
+                    <p>
+                        Get assistance with student portal
+                        access and technical issues.
+                    </p>
+                    <a href="#">Learn More</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-icon">🎓</div>
+                    <h3>Student Affairs</h3>
+                    <p>
+                        Information about student activities,
+                        events and campus life.
+                    </p>
+                    <a href="#">Learn More</a>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Notices Section -->
+        <section class="notices" id="notices">
+
+            <h2>Latest Notices</h2>
+
+            <div class="notice-container">
+
+                <article class="notice-item">
+                    <span class="notice-date">20 NOV 2026</span>
+                    <h3>Examination Schedule</h3>
+                    <p>
+                        Check the latest examination schedule
+                        and important instructions.
+                    </p>
+                    <a href="#">Read More</a>
+                </article>
+
+                <article class="notice-item">
+                    <span class="notice-date">18 NOV 2026</span>
+                    <h3>Student Registration</h3>
+                    <p>
+                        Students are requested to complete
+                        their registration process.
+                    </p>
+                    <a href="#">Read More</a>
+                </article>
+
+                <article class="notice-item">
+                    <span class="notice-date">15 NOV 2026</span>
+                    <h3>Campus Announcement</h3>
+                    <p>
+                        Important updates regarding
+                        university activities.
+                    </p>
+                    <a href="#">Read More</a>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+
+            <h2>About Student Services</h2>
+
+            <p>
+                The Student Services Homepage provides students
+                with easy access to university information and
+                support services through a simple and user-friendly
+                interface.
+            </p>
+
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+
+            <h2>Contact Us</h2>
+
+            <p>
+                For student-related enquiries, contact the
+                university helpdesk.
+            </p>
+
+            <p>
+                Email:
+                <a href="mailto:helpdesk@example.com">
+                    helpdesk@example.com
+                </a>
+            </p>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <p>
+            &copy; 2026 Malla Reddy University
+        </p>
+
+        <p>
+            Student Services Homepage
+        </p>
+
+        <p>
+            Designed using HTML5 and External CSS
+        </p>
+
+    </footer>
+
+</body>
+</html>
